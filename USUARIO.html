@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--css-->
+  <link rel="stylesheet" href="styles/INDEX.css">
+  <!--BOOTSTRAP ICONS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<div class="conteiner-usuario">
+  <!--INICIO HEADER-->
+  <div class="conteiner-usuario-header">
+    <div class="navbar-pedido">
+      <div class="navbar-icono-regreso"><i class="bi bi-arrow-left"></i></div>
+      <div class="navbar-logo">
+        <h2>PIZZERIA DON JUAN</h2>
+      </div>
+      <div class="navbar-busqueda">
+        <form action="" method="post">
+          <input type="text" name="buscar" value="Buscar" id="buscar" onclick="limpiarInput('buscar')">
+          <i class="bi bi-search"></i>
+        </form>
+      </div>
+      <div class="navbar-botton"><button onclick="IngresarLogin()">INGRESAR</button></div>
+    </div>    
+  </div>
+  <!--FIN HEADER-->
+
+  <div class="conteiner-usuario-body-background">
+    <div class="conteiner-usuario-body">
+      <div class="conteiner-usuario-izquierda">
+        <div class="conteiner-usuario-izquierda-header">
+          <p>Mi Cuenta</p>
+        </div>
+        <div class="conteiner-usuario-izquierda-body">
+          <div class="conteiner-usuario-izquierda-body-contenido">
+            <div class="conteiner-usuario-izquierda-body-contenido-izquierdo">
+              <i class="bi bi-person-circle"></i>
+              <p>Mis datos</p>
+            </div>
+            <i class="bi bi-arrow-right"></i>
+          </div>
+          <div class="conteiner-usuario-izquierda-body-contenido">
+            <div class="conteiner-usuario-izquierda-body-contenido-izquierdo">
+              <i class="bi bi-truck"></i>
+              <p>Pedidos</p>
+            </div>
+            <i class="bi bi-arrow-right"></i>
+          </div>
+          <div class="conteiner-usuario-izquierda-body-contenido">
+            <div class="conteiner-usuario-izquierda-body-contenido-izquierdo">
+              <i class="bi bi-geo-alt"></i>
+              <p>Mis direcciones</p>
+            </div>
+            <i class="bi bi-arrow-right"></i>
+          </div>
+          <div class="conteiner-usuario-izquierda-body-contenido">
+            <div class="conteiner-usuario-izquierda-body-contenido-izquierdo">
+              <i class="bi bi-door-closed-fill"></i>
+              <p>Cerrar sesion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="conteiner-usuario-derecha">
+        <div class="conteiner-usuario-derecha-header">
+          <p>Mis Datos</p>
+        </Div>
+        <div class="conteiner-usuario-derecha-body">
+          <div class="conteiner-usuario-derecha-contenido">
+            <i class="bi bi-person-circle"></i>
+            <div class="conteiner-usuario-derecha-contenido-texto">
+              <p>Nombres y apellidos</p>
+              <p>Diego Moises Carpio Andia</p>
+            </div>
+          </div>  
+          <div class="conteiner-usuario-derecha-contenido">
+            <i class="bi bi-envelope-at-fill"></i>
+            <div class="conteiner-usuario-derecha-contenido-texto">
+              <p>Correo electronico</p>
+              <p>diegobefore99@hotmail.com</p>
+            </div>
+          </div> 
+          <div class="conteiner-usuario-derecha-contenido">
+            <i class="bi bi-phone-fill"></i>
+            <div class="conteiner-usuario-derecha-contenido-texto">
+              <p>Numero de celular</p>
+              <p>(+51) 980 611 638</p>
+            </div>
+          </div>         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</div>
+</body>
+</html>
